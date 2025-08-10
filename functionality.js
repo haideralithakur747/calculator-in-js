@@ -38,6 +38,7 @@ function buttonClick(value) {
    function updateValue() {
     const display = document.querySelector('.display');
     display.textContent = displayvalue;
+    display.style.color = "green";
 
 
 }
