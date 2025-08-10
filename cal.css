@@ -6,7 +6,7 @@
     border-radius: 5px;
     padding: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    
+    background-color: #3a2764;
 }
 body {
   align-items: center;
@@ -29,6 +29,19 @@ body {
 }
 .buttons{
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 5fr);
   gap: 10px;
+  height: 300px;
+  width: 300px;
+  padding-top: 10px;
+  color: #FFB6C1 ;
+  text-align: right;
+}
+.buttons :hover{
+  background-color: #5f0505;
+}
+ .operator {
+  background-color: gold;
+  font-size: 20px;
+  font-weight: bold;
 }
