@@ -1,0 +1,29 @@
+.calculator{
+
+    width: 300px;
+    height: 400px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+body {
+  align-items: center;
+  justify-content: center;
+
+  background-image: url("image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  height: 100vh;
+}
+.display {
+  width: 93%;
+  height: 60px;
+  background-color: #eee;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
