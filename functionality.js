@@ -41,3 +41,36 @@ function buttonClick(value) {
 
 
 }
+function calculate() {
+    let result;
+    const num1 = parseFloat(firstnumber);
+    const num2 = parseFloat(secondnumber);
+    switch (operator) {
+        case '+':
+            result = num1 + num2;
+            break;
+        case '-':
+            result = num1 - num2;
+            break;
+        case '*':
+            result = num1 * num2;
+            break;
+        case '/':
+            result = num1 / num2;
+            break;
+            case 'C':
+                clear();
+            default:
+                result= num1;
+                break;
+    }
+    displayvalue = result.toString();
+    updateValue();
+}
+function clear() {
+    firstnumber = null;
+    secondnumber = null;
+    operator = null;
+    displayvalue = "";
+    updateValue();
+}
